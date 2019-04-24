@@ -1,5 +1,6 @@
 package liar
 
-type Data interface {
+type Truth interface {
+	Hash() string
 	Lie() string
 }
